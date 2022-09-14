@@ -1,0 +1,25 @@
+/* Body{ */
+    /* background-color: aqua; */
+/* } */
+.container{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing:border-box ;
+    width: 300px;
+}
+.bg-img{
+    background: url('White_full.png');
+   
+    height: 100vh;
+    padding-left: 50;
+    background-size: cover;
+    background-position: center;
+}

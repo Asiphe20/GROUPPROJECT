@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css.css">
+    <title>Document</title>
+    <img src="wallpaper.jpg" alt="Flowers in Chania">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div class="bg-img">
+    <div class="content">
+        <header>Login page</header>
+        <form action="#" class="login_form" method="post" name="form" onsubmit="return validated()">
+            <div class="login">
+                <span class="fa fa-user"></span>
+                <input type="text" required placeholder="Email/Username" name="email" name="username">
+                <input  autocomplete="off" type="text" name="email">
+                <div id="email_error">please fil up your email</div>
+            </div>
+
+            <div class="login space">
+                <span class="fa fa-lock"></span>
+                <input type="password" class="password" required placeholder="password" name="password">
+                <div id="password_error">please fill up your password</div>
+                <span class="show">SHOW</span>
+            </div>
+            <div class="pass">
+                <a href="#">Forgot password</a> 
+            </div>
+            <div class="login">
+                <input type="submit" value="LOG IN">
+            </div>
+            <div class="pass">
+                <p>Have no accout yet? <a href="#">Signup</a></p>
+            </div>
+        </form>
+    </div>
+  </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
